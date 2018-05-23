@@ -12,11 +12,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee2e7898-d91f-487e-ab2b-80172a4b9c9e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../AES/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../AES/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AES/aes.c" beforeDir="false" afterPath="$PROJECT_DIR$/../AES/aes.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AES/aes.h" beforeDir="false" afterPath="$PROJECT_DIR$/../AES/aes.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AES/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../AES/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SHA/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SHA/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SHA/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SHA/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SHA/sha256.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SHA/sha256.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/CryptoTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/CryptoTest/src/main/java/ro/pata/crypto/SHATest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AES/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AES/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/CryptoTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/CryptoTest/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +34,20 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf>
+      <file leaf-file-name="main.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="37" column="62" lean-forward="true" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -56,8 +75,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="116" />
-    <option name="y" value="36" />
+    <option name="x" value="2033" />
+    <option name="y" value="26" />
     <option name="width" value="1606" />
     <option name="height" value="1001" />
   </component>
@@ -83,7 +102,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SHA" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
@@ -122,19 +141,19 @@
       <workItem from="1526473324309" duration="485000" />
       <workItem from="1526486214310" duration="1129000" />
       <workItem from="1526882468235" duration="712000" />
+      <workItem from="1527073761895" duration="2740000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13507000" />
+    <option name="totallyTimeSpent" value="16247000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="116" y="36" width="1606" height="1001" extended-state="0" />
-    <editor active="true" />
+    <frame x="2033" y="26" width="1606" height="1001" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21668743" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21662469" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="CMake" order="7" weight="0.32905483" />
+      <window_info anchor="bottom" id="CMake" order="7" visible="true" weight="0.32867134" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3281075" />
@@ -146,10 +165,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3281075" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,9 +210,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3510">
           <caret line="234" column="29" selection-start-line="234" selection-start-column="29" selection-end-line="234" selection-end-column="29" />
-          <folding>
-            <element signature="e#45#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -215,9 +231,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3510">
           <caret line="234" column="29" selection-start-line="234" selection-start-column="29" selection-end-line="234" selection-end-column="29" />
-          <folding>
-            <element signature="e#45#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -239,9 +252,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4914">
           <caret line="234" column="29" selection-start-line="234" selection-start-column="29" selection-end-line="234" selection-end-column="29" />
-          <folding>
-            <element signature="e#45#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -262,20 +272,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/des.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="811">
           <caret line="234" column="29" selection-start-line="234" selection-start-column="29" selection-end-line="234" selection-end-column="29" />
-          <folding>
-            <element signature="e#45#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -283,6 +283,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="37" column="62" lean-forward="true" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

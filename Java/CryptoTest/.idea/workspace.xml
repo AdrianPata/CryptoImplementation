@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0305c7b5-8d17-42d6-9ded-0a223288ca54" name="Default" comment="" />
+    <list default="true" id="0305c7b5-8d17-42d6-9ded-0a223288ca54" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../../C/SHA/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C/SHA/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C/SHA/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C/SHA/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C/SHA/sha256.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C/SHA/sha256.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/pata/crypto/SHATest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C/AES/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/AES/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C/DES/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/DES/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +33,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DESTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DESTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/pata/crypto/DESTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="229">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SHATest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ro/pata/crypto/SHATest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,6 +66,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -50,6 +76,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ro/pata/crypto/DES.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ro/pata/crypto/DESTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/pata/crypto/SHATest.java" />
       </list>
     </option>
   </component>
@@ -65,12 +92,12 @@
     <option name="width" value="1938" />
     <option name="height" value="1064" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,6 +136,7 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -133,9 +161,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SHATest">
     <configuration name="DESTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ro.pata.crypto.DESTest" />
+      <module name="CryptoTest" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../../scratchpad" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.pata.crypto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SHATest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.pata.crypto.SHATest" />
       <module name="CryptoTest" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../../scratchpad" />
       <extension name="coverage">
@@ -186,8 +225,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.DESTest" />
+      <item itemvalue="Application.SHATest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SHATest" />
         <item itemvalue="Application.DESTest" />
       </list>
     </recent_temporary>
@@ -204,15 +248,15 @@
       <updated>1526470612553</updated>
       <workItem from="1526470615480" duration="2227000" />
       <workItem from="1526473674315" duration="127000" />
+      <workItem from="1527079198707" duration="246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2354000" />
+    <option name="totallyTimeSpent" value="2600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -230,11 +274,11 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32922733" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25725028" />
       <window_info anchor="bottom" id="Run with VisualVM" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25349087" />
       <window_info anchor="bottom" id="SonarLint" order="7" weight="0.32922733" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -263,6 +307,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/pata/crypto/DESTest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/pata/crypto/DESTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding>
@@ -282,7 +343,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/pata/crypto/DESTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/pata/crypto/SHATest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

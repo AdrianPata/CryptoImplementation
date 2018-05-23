@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="AES" targetName="AES" />
+      <config projectName="SHA" targetName="SHA" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,9 +11,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca421f05-5fb5-4f09-b813-a185cfa11757" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f2028028-6e0c-4a26-8ab8-1d96ea2d2466" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sha256.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sha256.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/CryptoTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/CryptoTest/src/main/java/ro/pata/crypto/SHATest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AES/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AES/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DES/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DES/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/CryptoTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/CryptoTest/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,47 +38,34 @@
       <file leaf-file-name="main.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aes.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aes.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1029">
-              <caret line="49" column="48" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="48" />
+            <state relative-caret-position="527">
+              <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
               <folding>
-                <element signature="e#722#774#0" expanded="true" />
-                <element signature="e#814#866#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aes.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aes.c">
+      <file leaf-file-name="sha256.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sha256.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-              <folding>
-                <element signature="e#1218#1237#0" expanded="true" />
-                <element signature="e#1678#1708#0" expanded="true" />
-                <element signature="e#1748#1778#0" expanded="true" />
-                <element signature="e#9361#9605#0" expanded="true" />
-                <element signature="e#12981#13279#0" expanded="true" />
-              </folding>
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sha256.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sha256.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="98" column="5" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>CTR</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -77,8 +73,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/aes.h" />
-        <option value="$PROJECT_DIR$/aes.c" />
+        <option value="$PROJECT_DIR$/sha256.h" />
+        <option value="$PROJECT_DIR$/sha256.c" />
         <option value="$PROJECT_DIR$/main.c" />
       </list>
     </option>
@@ -89,12 +85,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="300" />
-    <option name="y" value="13" />
+    <option name="x" value="308" />
+    <option name="y" value="9" />
     <option name="width" value="1606" />
     <option name="height" value="1001" />
   </component>
@@ -104,18 +97,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="AES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AES" type="462c0819:PsiDirectoryNode" />
+              <item name="SHA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SHA" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -136,12 +129,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AES">
-    <configuration name="AES" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/../../scratchpad" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AES" TARGET_NAME="AES" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AES" RUN_TARGET_NAME="AES" />
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AES" RUN_TARGET_NAME="AES" EXPLICIT_BUILD_TARGET_NAME="all" />
+  <component name="RunManager" selected="Application.SHA">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SHA" RUN_TARGET_NAME="SHA" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="SHA" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/../../scratchpad" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SHA" TARGET_NAME="SHA" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SHA" RUN_TARGET_NAME="SHA" />
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.AES" />
+      <item itemvalue="Application.SHA" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -149,33 +142,34 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ca421f05-5fb5-4f09-b813-a185cfa11757" name="Default" comment="" />
-      <created>1526882583078</created>
+      <changelist id="f2028028-6e0c-4a26-8ab8-1d96ea2d2466" name="Default" comment="" />
+      <created>1527074122081</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1526882583078</updated>
-      <workItem from="1526882584758" duration="1479000" />
-      <workItem from="1527073782187" duration="513000" />
+      <updated>1527074122081</updated>
+      <workItem from="1527074126988" duration="197000" />
+      <workItem from="1527074352784" duration="2255000" />
+      <workItem from="1527077411909" duration="2038000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1992000" />
+    <option name="totallyTimeSpent" value="4490000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="300" y="13" width="1606" height="1001" extended-state="0" />
+    <frame x="308" y="9" width="1606" height="1001" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24937028" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32867134" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32983682" />
       <window_info anchor="bottom" id="CMake" order="7" weight="0.32983682" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32867134" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5006297" side_tool="true" weight="0.32983682" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49937028" weight="0.32983682" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997669" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -192,68 +186,67 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aes.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1029">
-          <caret line="49" column="48" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="48" />
+        <state relative-caret-position="399">
+          <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
           <folding>
-            <element signature="e#722#774#0" expanded="true" />
-            <element signature="e#814#866#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aes.c">
+    <entry file="file://$PROJECT_DIR$/sha256.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="e#1218#1237#0" expanded="true" />
-            <element signature="e#1678#1708#0" expanded="true" />
-            <element signature="e#1748#1778#0" expanded="true" />
-            <element signature="e#9361#9605#0" expanded="true" />
-            <element signature="e#12981#13279#0" expanded="true" />
-          </folding>
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aes.c">
+    <entry file="file://$PROJECT_DIR$/sha256.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="e#1218#1237#0" expanded="true" />
-            <element signature="e#1678#1708#0" expanded="true" />
-            <element signature="e#1748#1778#0" expanded="true" />
-            <element signature="e#9361#9605#0" expanded="true" />
-            <element signature="e#12981#13279#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aes.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1029">
-          <caret line="49" column="48" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="48" />
-          <folding>
-            <element signature="e#722#774#0" expanded="true" />
-            <element signature="e#814#866#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="441">
+          <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        <state relative-caret-position="84">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sha256.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sha256.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="98" column="5" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
